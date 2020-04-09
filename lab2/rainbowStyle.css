@@ -1,0 +1,47 @@
+*{
+    background-color: #9efff5;
+}
+h1{
+    text-align: center;
+    padding-top: 4vmax;
+    background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Impact;
+    font-size: 50px;
+}
+.main{
+    height: 17vh;
+    margin: auto;
+    padding-top: 15%;
+    transform: rotate(-5deg);
+}
+.rainbow{
+    display: inline-block;
+    width:17.6%;
+    height: 100%;
+    font-size: 0;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.red{
+    background-image: linear-gradient(45deg, red , orange);
+    /*border-radius: 100% 0px 0px 0px;*/
+    width: 10%;
+}
+.orange{
+    background-image: linear-gradient(to right, orange , yellow);
+}
+.yellow{
+    background-image: linear-gradient(to right, yellow, green);
+}
+.green{
+    background-image: linear-gradient(to right, green, blue);
+}
+.blue{
+    background-image: linear-gradient(to right, blue, indigo);
+}
+.indigo{
+    background-image: linear-gradient(to right, indigo, violet);
+    /*border-radius: 0px 100% 0px 0px;*/
+}
