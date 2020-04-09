@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Some sorted table</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <script type="text/javascript" src="script.js"></script>
+
+
+    <h2>Beverages</h2>
+    <table id="myTable">
+        <tr>
+            <th onclick="sortTable(0)">Name</th>
+            <th onclick="sortTable(1)">Price(lei)</th>
+            <th onclick="sortTable(2)">Alcohol percentage</th>
+        </tr>
+        <tr>
+            <td>Coffee</td>
+            <td>8</td>
+            <td>0</td>
+        </tr>
+        <tr>
+            <td>Tea</td>
+            <td>7</td>
+            <td>0</td>
+        </tr>
+        <tr>
+            <td>Wine</td>
+            <td>15</td>
+            <td>12</td>
+        </tr>
+        <tr>
+            <td>Vodka</td>
+            <td>10</td>
+            <td>40</td>
+        </tr>
+        <tr>
+            <td>Pina Colada</td>
+            <td>20</td>
+            <td>13</td>
+        </tr>
+    </table>
+    <script>
+        sortTable(2);
+    </script>
+</body>
+</html>
